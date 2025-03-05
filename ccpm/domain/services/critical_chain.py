@@ -1,13 +1,14 @@
 """
 クリティカルチェーン計算サービス
 """
-from typing import Dict, List, Set, Tuple
+from typing import List
 from uuid import UUID
 
 import networkx as nx
 
 from ccpm.domain.entities.project import Project
 from ccpm.domain.entities.task import Task
+
 
 class CriticalChainService:
     """

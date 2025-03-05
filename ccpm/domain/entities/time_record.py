@@ -1,9 +1,10 @@
 """
 時間記録エンティティの定義
 """
-from datetime import datetime, timedelta
-from typing import Optional, Dict, Any
+from datetime import datetime
+from typing import Any, Dict, Optional
 from uuid import UUID, uuid4
+
 
 class TimeRecord:
     """

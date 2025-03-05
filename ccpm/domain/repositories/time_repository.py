@@ -8,6 +8,7 @@ from uuid import UUID
 
 from ccpm.domain.entities.time_record import TimeRecord
 
+
 class TimeRepository(ABC):
     """
     時間記録エンティティの永続化と取得を担当するリポジトリインターフェース

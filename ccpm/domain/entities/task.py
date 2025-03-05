@@ -2,8 +2,9 @@
 タスクエンティティの定義
 """
 from datetime import datetime
-from typing import List, Optional, Dict, Any, Set
+from typing import Any, Dict, List, Optional
 from uuid import UUID, uuid4
+
 
 class Task:
     """

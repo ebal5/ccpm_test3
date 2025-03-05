@@ -2,7 +2,8 @@
 バッファステータスの値オブジェクト
 """
 from enum import Enum
-from typing import Dict, Any, Tuple
+from typing import Any, Dict, Tuple
+
 
 class BufferStatusColor(Enum):
     """バッファステータスの色を表す列挙型"""

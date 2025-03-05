@@ -7,6 +7,7 @@ from uuid import UUID
 
 from ccpm.domain.entities.task import Task
 
+
 class TaskRepository(ABC):
     """
     タスクエンティティの永続化と取得を担当するリポジトリインターフェース
