@@ -7,6 +7,7 @@ from uuid import UUID
 
 from ccpm.domain.entities.project import Project
 
+
 class ProjectRepository(ABC):
     """
     プロジェクトエンティティの永続化と取得を担当するリポジトリインターフェース

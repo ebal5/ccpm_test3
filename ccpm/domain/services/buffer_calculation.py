@@ -1,11 +1,12 @@
 """
 バッファ計算サービス
 """
-from typing import List, Dict, Any
+from typing import List
 
 from ccpm.domain.entities.project import Project
 from ccpm.domain.entities.task import Task
 from ccpm.domain.value_objects.buffer_status import BufferStatus
+
 
 class BufferCalculationService:
     """

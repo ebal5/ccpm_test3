@@ -3,6 +3,7 @@
 """
 from taipy.gui import Markdown
 
+
 def create_dashboard_page() -> str:
     """
     ダッシュボードページのMarkdownを作成します

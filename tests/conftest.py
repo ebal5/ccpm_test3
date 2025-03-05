@@ -1,14 +1,15 @@
 """
 pytest用の共通フィクスチャ
 """
-import pytest
 from datetime import datetime, timedelta
-from uuid import uuid4
+
+import pytest
 
 from ccpm.domain.entities.project import Project
 from ccpm.domain.entities.task import Task
 from ccpm.domain.entities.time_record import TimeRecord
 from ccpm.domain.value_objects.buffer_status import BufferStatus
+
 
 @pytest.fixture
 def sample_project():

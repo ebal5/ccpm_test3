@@ -42,3 +42,8 @@ python_files = "test_*.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["ccpm"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.9",
+]

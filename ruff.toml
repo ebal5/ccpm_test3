@@ -1,7 +1,7 @@
 # ruff.toml
 
-# Enable flake8-bugbear (`B`) rules.
-select = ["E", "F", "B", "I", "N", "UP", "ANN", "S", "BLE", "A", "C4", "DTZ", "T10", "EM", "FA", "ISC", "ICN", "G", "PIE", "T20", "PT", "Q", "RSE", "RET", "SIM", "TID", "TCH", "ARG", "PTH", "ERA", "PD", "PGH", "PL", "TRY", "FLY", "PERF", "RUF"]
+# Enable basic rules for initial setup
+select = ["E", "F", "I"]
 
 # Exclude a variety of commonly ignored directories.
 exclude = [

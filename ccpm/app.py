@@ -2,9 +2,10 @@
 CCPM アプリケーションのエントリーポイント
 """
 import logging
+
 from taipy.gui import Gui
 
-from ccpm.config import setup_logging, load_config
+from ccpm.config import load_config, setup_logging
 from ccpm.presentation.pages.dashboard import create_dashboard_page
 
 # ロガーの設定
